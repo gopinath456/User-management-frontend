@@ -23,6 +23,7 @@ const Login = () => {
                 toast.success("successfully login");
             } catch (error) {
                 console.log(error.message)
+                toast.error('Please enter valid email and password')
             }  
         }
         
